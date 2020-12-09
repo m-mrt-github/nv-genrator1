@@ -784,7 +784,7 @@ function draw() {
                                         print('helloooooooooo');
                                         push();
                                         //translate(phraseX[i] + tWidth/2 , phraseY[i] + s * tWidth - tWidth/2);
-                                        translate(phraseX[i] + tWidth * 1.01, phraseY[i] + (s - 0.05) * tWidth);
+                                        translate(phraseX[i] + tWidth * 1.01, phraseY[i] + (s - 0.2) * tWidth);
                                         //translate(100, 100);
                                         rotate(PI * 3 / 2);
                                         text(punctuationLine[i][s], -tWidth, -tWidth, tWidth + 10, tWidth + 10);
@@ -846,7 +846,7 @@ function draw() {
                                     print('helloooooooooo');
                                     push();
                                     //translate(phraseX[i] + tWidth/2 , phraseY[i] + s * tWidth - tWidth/2);
-                                    translate(phraseX[i] + tWidth * 0.5, phraseY[i] + (s - 0.05) * tWidth);
+                                    translate(phraseX[i] + tWidth * 0.3, phraseY[i] + (s - 0.2) * tWidth);
                                     //translate(100, 100);
                                     rotate(PI * 3 / 2);
                                     text(punctuationLine[i][s], -tWidth, -tWidth, tWidth + 10, tWidth + 10);
