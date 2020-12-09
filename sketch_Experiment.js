@@ -81,7 +81,7 @@ var myFont = "Sawarabi Mincho";
 var tHeight; //テキストの高さを格納する変数
 var tWidth; //テキストの幅を格納する変数
 var fontSize; //fontSizeを格納するはいれつ
-var fontSizeRange = [10, 20, 25, 40, 60, 100]; //fontSizeのレンジ
+var fontSizeRange = [14, 20, 25, 40, 60, 100]; //fontSizeのレンジ
 var opacity; //透明度を格納する配列
 var expandTextRandom;  //背景にExpandTextを表示するかの確率を決める配列
 var mean = 0;
@@ -118,7 +118,7 @@ var setupFinish;
 
 //------------------ProgressBarで使用する変数------------------
 var progressbarHeight = 2;
-var progressbarY = 25;  //ProgressBarが画面下からどれくらいの距離に表示されるか
+var progressbarY = 40;  //ProgressBarが画面下からどれくらいの距離に表示されるか
 var paragraphDistance = 5; //プログレスバーのパラグラフ間の距離
 var paragraphCounter = 0; //文節の数を数える
 var noWordPosition = []; //パラグラフの区切り（文字の入っていない行の番号）を格納する配列
