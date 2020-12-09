@@ -13,7 +13,7 @@ var novelTitle;
 var Width; //iPhone8は414
 var Height; //iPhone8は736
 var screenMargin = 10; //文節が表示されない画面枠マージンの値
-var screenMarginRL = 10;
+var screenMarginRL = 15;
 var screenMarginTB = 50;
 var fR = 60;
 
@@ -807,6 +807,9 @@ function draw() {
 
                         fill(150, opacity[i]);
                         text(phrase[i], phraseX[i], phraseY[i], tWidth + 5, (tWidth + 2) * realLetterLengthForVertical[i] + 5);
+                        
+                         //テキストを動かすためのコード
+                        phraseY[i] = phraseY[i] + moveLengthPerFrame;
 
                         //句読点のためのコード
                         //。、のとき
