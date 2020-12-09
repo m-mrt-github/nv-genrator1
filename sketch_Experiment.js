@@ -862,6 +862,11 @@ function draw() {
             }
         }
     }
+    
+      //-------------------------------タイトルを表示-------------------------------
+    fill(255);
+    nostroke();
+    rect(0, 0, Width, 50);
 
     //-------------------------------ProgressBarを表示するコード-------------------------------
     //if (progressBarSwitch === 1) {
@@ -894,11 +899,6 @@ function draw() {
         noStroke();
         rect(paragraphRectX[i], paragraphRectY[i], paragraphRectWidth[i], paragraphRectHeight[i]);
     }
-    
-     //-------------------------------タイトルを表示-------------------------------
-    fill(255);
-    nostroke();
-    rect(0, 0, Width, 50);
 }
 
 
