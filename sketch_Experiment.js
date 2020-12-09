@@ -117,8 +117,8 @@ var fontSizeAfterTimelimit = 14; //timeLimitSeconds秒だけ経過したのち�
 var setupFinish;
 
 //------------------ProgressBarで使用する変数------------------
-var progressbarHeight = 1;
-var progressbarY = 40;  //ProgressBarが画面下からどれくらいの距離に表示されるか
+var progressbarHeight = 1.5;
+var progressbarY = 35;  //ProgressBarが画面下からどれくらいの距離に表示されるか
 var paragraphDistance = 3; //プログレスバーのパラグラフ間の距離
 var paragraphCounter = 0; //文節の数を数える
 var noWordPosition = []; //パラグラフの区切り（文字の入っていない行の番号）を格納する配列
@@ -271,7 +271,7 @@ function setup() {
         //パラグラフバーの縦横の長さを計算
         //paragraphRectWidth[i] = Math.round((Width - paragraphDistance * (paragraphCounter - 1) - screenMargin - 100) * paragraph[i].length / totalWordCounts);
         //paragraphRectWidth[i] = (Width - paragraphDistance * (paragraphCounter - 1) - titleWidth - titleXY * 2 - 20 * 2) * paragraph[i].length / totalWordCounts;
-        paragraphRectWidth[i] = (Width - paragraphDistance * (paragraphCounter - 1) - screenMarginRL * 2.5) * paragraph[i].length / totalWordCounts;
+        paragraphRectWidth[i] = (Width - paragraphDistance * (paragraphCounter - 1) - screenMarginRL * 3) * paragraph[i].length / totalWordCounts;
         paragraphRectHeight[i] = progressbarHeight;
 
         //パラグラフバーを表示する座標を計算
