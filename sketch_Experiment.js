@@ -666,7 +666,7 @@ function draw() {
                             tWidth = textWidth(str(phrase[i].charAt(0)));
                             textLeading(fontSize[i]);
                             fill(240, opacity[i])
-                            text(phrase[i], phraseX[i] - 100, phraseY[i] - 100, tWidth * phrase[i].length + 2, tHeight + 2);
+                            text(phrase[i], phraseX[i] - tWidth/3, phraseY[i] - (tWidth * phrase[i].length)/3, tWidth * phrase[i].length + 2, tHeight + 2);
                             fill(0, opacity[i]);
                         } else {
                             fill(150, opacity[i]);
@@ -685,7 +685,7 @@ function draw() {
                             //phraseY[i] = height / 2 - tWidth / 2;
                             fill(255, opacity[i]);
                             stroke(150, opacity[i]);
-                            strokeWeight(2);
+                            strokeWeight(0.5);
                             if (punctuationSwitch[i] === 0) {
                                 rect(phraseX[i] - tWidth/1.7, phraseY[i] - tWidth*0.8, tWidth * phrase[i].length + tWidth, tHeight + tWidth);
                             } else {
@@ -725,7 +725,7 @@ function draw() {
                             //phraseY[i] = Height / 2 - (tWidth * realLetterLengthForVertical[i]) / 2;
                             fill(255, opacity[i]);
                             stroke(150, opacity[i]);
-                            strokeWeight(2);
+                            strokeWeight(0.5);
                             if (punctuationSwitch[i] === 0) {
                                 rect(phraseX[i] - tWidth, phraseY[i] - tWidth / 2, tWidth + tWidth*2, tWidth * realLetterLengthForVertical[i] + tWidth);
                             } else {
@@ -747,7 +747,7 @@ function draw() {
                             fill(240, opacity[i])
 
                             //大文字の文節を表示する
-                            text(phrase[i], phraseX[i] - 100, phraseY[i] - 100, tWidth + 2, (tWidth + 2) * realLetterLengthForVertical[i] + 2);
+                            text(phrase[i], phraseX[i] - tWidth/3, phraseY[i] - (tWidth * realLetterLengthForVertical[i])/3, tWidth + 2, (tWidth + 2) * realLetterLengthForVertical[i] + 2);
 
                             //句読点のためのコード
                             //。、のとき
