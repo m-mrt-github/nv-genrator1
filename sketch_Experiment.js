@@ -13,7 +13,7 @@ var novelTitle;
 var Width; //iPhone8は414
 var Height; //iPhone8は736
 var screenMargin = 10; //文節が表示されない画面枠マージンの値
-var screenMarginRL = 15;
+var screenMarginRL = 10;
 var screenMarginTB = 50;
 var fR = 60;
 
@@ -81,7 +81,7 @@ var myFont = "Sawarabi Mincho";
 var tHeight; //テキストの高さを格納する変数
 var tWidth; //テキストの幅を格納する変数
 var fontSize; //fontSizeを格納するはいれつ
-var fontSizeRange = [14, 20, 25, 40, 60, 100]; //fontSizeのレンジ
+var fontSizeRange = [10, 20, 25, 40, 60, 100]; //fontSizeのレンジ
 var opacity; //透明度を格納する配列
 var expandTextRandom;  //背景にExpandTextを表示するかの確率を決める配列
 var mean = 0;
