@@ -13,7 +13,7 @@ var novelTitle;
 var Width; //iPhone8は414
 var Height; //iPhone8は736
 var screenMargin = 10; //文節が表示されない画面枠マージンの値
-var screenMarginRL = 15;
+var screenMarginRL = 13;
 var screenMarginTB = 50;
 var fR = 60;
 
