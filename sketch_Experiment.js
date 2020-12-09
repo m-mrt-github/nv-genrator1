@@ -18,8 +18,8 @@ var screenMarginTB = 50;
 var fR = 60;
 
 //タイトル表示の変数
-var titleXY = 10;
-var autherXY = 10;
+var titleXY = 5;
+var autherXY = 5;
 var titleSize = 20;
 var titleWidth = 0;
 var novelNumber = 0;
@@ -117,9 +117,9 @@ var fontSizeAfterTimelimit = 14; //timeLimitSeconds秒だけ経過したのち�
 var setupFinish;
 
 //------------------ProgressBarで使用する変数------------------
-var progressbarHeight = 2;
+var progressbarHeight = 1;
 var progressbarY = 40;  //ProgressBarが画面下からどれくらいの距離に表示されるか
-var paragraphDistance = 5; //プログレスバーのパラグラフ間の距離
+var paragraphDistance = 3; //プログレスバーのパラグラフ間の距離
 var paragraphCounter = 0; //文節の数を数える
 var noWordPosition = []; //パラグラフの区切り（文字の入っていない行の番号）を格納する配列
 
