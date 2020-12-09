@@ -660,7 +660,7 @@ function draw() {
 
 
                         //大きい文字エフェクトを入れるかどうか
-                        if (expandTextRandom[i] > 0.8 && covBox[i] !== 1) {
+                        if (expandTextRandom[i] > 0.2 && covBox[i] !== 1) {
                             textFont(myFont, fontSize[i] * 7);
                             tHeight = textAscent() + textDescent();
                             tWidth = textWidth(str(phrase[i].charAt(0)));
@@ -743,7 +743,7 @@ function draw() {
                             textFont(myFont, fontSize[i] * 7);
                             tHeight = textAscent() + textDescent();
                             tWidth = textWidth(str(phrase[i].charAt(0)));
-                            textLeading(fontSize[i] * 4);
+                            textLeading(fontSize[i] * 7);
                             fill(240, opacity[i])
 
                             //大文字の文節を表示する
