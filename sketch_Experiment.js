@@ -118,7 +118,7 @@ var setupFinish;
 
 //------------------ProgressBarで使用する変数------------------
 var progressbarHeight = 1.5;
-var progressbarY = 35;  //ProgressBarが画面下からどれくらいの距離に表示されるか
+var progressbarY = 40;  //ProgressBarが画面下からどれくらいの距離に表示されるか
 var paragraphDistance = 3; //プログレスバーのパラグラフ間の距離
 var paragraphCounter = 0; //文節の数を数える
 var noWordPosition = []; //パラグラフの区切り（文字の入っていない行の番号）を格納する配列
