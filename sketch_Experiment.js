@@ -110,8 +110,8 @@ var textSwitch;　//textOrderの値が増えた時に、Phrase表示に切り替
 var timeLimit;
 var timeLimitEnd;
 var timeLimitSwitch;
-var timeLimitSeconds = 8;  //この時間が経過するまではランダムなfontSizeを左が続ける
-var fontSizeAfterTimelimit = 14; //timeLimitSeconds秒だけ経過したのちはこのフォントサイズで固定
+var timeLimitSeconds = 3;  //この時間が経過するまではランダムなfontSizeを左が続ける
+var fontSizeAfterTimelimit = 12; //timeLimitSeconds秒だけ経過したのちはこのフォントサイズで固定
 
 //setupが完了したことを示す変数
 var setupFinish;
