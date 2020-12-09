@@ -666,7 +666,7 @@ function draw() {
                             tWidth = textWidth(str(phrase[i].charAt(0)));
                             textLeading(fontSize[i]);
                             fill(240, opacity[i])
-                            text(phrase[i], phraseX[i] - tWidth/3, phraseY[i] - (tWidth * phrase[i].length)/3, tWidth * phrase[i].length + 2, tHeight + 2);
+                            text(phrase[i], phraseX[i] - tWidth*3/7, phraseY[i] - (tWidth * phrase[i].length)*3/7, tWidth * phrase[i].length + 2, tHeight + 2);
                             fill(0, opacity[i]);
                         } else {
                             fill(150, opacity[i]);
@@ -740,14 +740,14 @@ function draw() {
 
                         //大きな文字を表示する際のコード
                         if (expandTextRandom[i] > 0.8 && covBox[i] !== 1) {
-                            textFont(myFont, fontSize[i] * 4);
+                            textFont(myFont, fontSize[i] * 7);
                             tHeight = textAscent() + textDescent();
                             tWidth = textWidth(str(phrase[i].charAt(0)));
                             textLeading(fontSize[i] * 4);
                             fill(240, opacity[i])
 
                             //大文字の文節を表示する
-                            text(phrase[i], phraseX[i] - tWidth/3, phraseY[i] - (tWidth * realLetterLengthForVertical[i])/3, tWidth + 2, (tWidth + 2) * realLetterLengthForVertical[i] + 2);
+                            text(phrase[i], phraseX[i] - tWidth*3/7, phraseY[i] - (tWidth * realLetterLengthForVertical[i])*3/7, tWidth + 2, (tWidth + 2) * realLetterLengthForVertical[i] + 2);
 
                             //句読点のためのコード
                             //。、のとき
